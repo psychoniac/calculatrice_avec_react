@@ -1,10 +1,11 @@
-
+import Calculator from "./composants/calculator/Calculator"
+import "./App.css"
 function App() {
 
   return (
-    <>
-    <h1>Calculatrice</h1>
-    </>
+    <div className="container">
+    <Calculator />
+    </div>
   )
 }
 
